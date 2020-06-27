@@ -1,0 +1,41 @@
+
+body{
+	background-color: #6610f2;
+	 /*blur effect */
+	  /*filter: blur(8px);
+	  -webkit-filter: blur(8px);*/
+}
+#up{
+	color : #e83e8c;
+	text-shadow: 2px 2px 8px #000000;
+	font-family: Roboto, BlinkMacSystemFont,
+				"Segoe UI", "Helvetica Neue", Arial,
+				sans-serif, "Apple Color Emoji",
+				"Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	
+}
+#ceiv{
+
+	border-radius: 50px;
+	border : 3px solid #ddd;
+	/*need to add shadow to this image*/
+	}
+
+#down{
+	text-align: center;
+	font-family:"Segoe UI Symbol";
+	text-shadow: 2px 2px 8px #000000;
+	color: white;
+	font-size: 19px;
+}
+#fb{
+	width: 50px;
+	height: 50px;
+}
+#yt{
+	width:50px;
+	height: 50px
+}
