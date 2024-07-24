@@ -1,71 +1,408 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Ceiv</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-	
-		<!-- this is logo -->
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Seif Eddine.</span>
+                    A Salesforce Developer.
+                </h1>
+                <p>
+                    I leverage my technical skills to build custom solutions on the Salesforce platform.
+                    Previously, I specialized in web scraping and information gathering, bringing a passion
+                    for data extraction and analysis to my work.
+                    Now, I'm excited to focus on helping businesses optimize their Salesforce experience by
+                    creating efficient workflows and insightful automations.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        I am a dedicated Salesforce Developer and a passionate computer enthusiast.
+                        My expertise spans Salesforce development, graphic design (specializing in rebranding
+                        and visual identity), and Python development with a focus on data gathering and data scraping.
+                        I began my career freelancing as a graphic designer for a year, where I honed my skills
+                        in creating compelling visual identities.
+                        Driven by my passion for data, I transitioned into Salesforce development.
+                        In this role, I leverage my extensive knowledge to help businesses improve by implementing various integrations
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Year of <br /> experience as a <strong>Salesforce developer</strong></p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Year of <br /> experience as a <strong>Brand Designer</strong></p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Year of <br /> experience as a <strong>Web Scraping Specialist</strong></p>
+                        </div>
+                    </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <!-- html progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- css progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- js progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- apis progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">APIs (Rest, Soap, Bulk...)</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="apis"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- node progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- python progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="inkscape"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- git progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">Git</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="git"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- adobe progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">Adobe Suite (Ps, Ai)</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- inkscape progress bar-->
+                    <div class="progress-bar">
+                        <p class="prog-title">Inkscape</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="stat-title">My Timeline</h4>
+                <div class="timeline">
+                <!-- np -->
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - present</p>
+                    <h5>Salesforce Developer<span> - Cimpress</span></h5>
+                    <p>
+                        Developing and customizing Salesforce solutions, integrating systems, and optimizing workflows to enhance business processes.
+                    </p>
+                </div>
+                <!-- web scraping -->
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - 2023</p>
+                    <h5>WEB SCRAPING SPECIALIST<span>- Freelance</span></h5>
+                    <p>
+                        Conducted web scraping projects for various clients, focusing on data extraction, analysis, 
+                        and automation to support decision-making and business strategies.
+                    </p>
+                </div>
+                <!-- graphic design-->
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2022</p>
+                    <h5>BRAND DESIGNER<span>- Freelance</span></h5>
+                    <p>
+                        Created and refined brand identities for various clients, including logo design, visual assets, 
+                        and brand guidelines to enhance market presence and consistency.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done the past.
+            </p>
+            <div class="portfolios">
+                <!-- quachi -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/2b51ba141816561.625b333c99de8.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://www.behance.net/gallery/200810113/Cover-for-Duality-by-Montee" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- divine -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/244007140971209.624b6ff6eb3a8.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://www.behance.net/gallery/140971209/Divine-Vindetta-Identity" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vertex -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/6cb46b137851715.6212c04979b36.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://www.behance.net/gallery/137851715/Minimalistic-Green-Vertex" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- duality -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/b536e1200810113.6668cf73622bc.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://www.behance.net/gallery/200810113/Cover-for-Duality-by-Montee" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- skCreeper -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://www.scraping-bot.io/static/web_crawler.webp" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/ceivv/skCreeper" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- YTMP3xix -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQtARCixY5xPiAaEtefkyT7m4oT8hdEN2nQ&s" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/ceivv/YTMP3xix" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Tunis, Tunisia
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: seifeddinadel9@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: ISET | Sousse</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +216 56287745</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Arabic, English, French, Spanish</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.linkedin.com/in/seifeddineadel/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://x.com/Ceiv17" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/ceivv" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-	<fieldset>
-		<legend>ceiv</legend>
-	<div id="up">
-		<img src="./assets/ceiv.jpg" alt="Levi from Attack on Titan" id="ceiv">
-
-		<h1>Seif Eddine Adel</h1>
-	</div>
-	<div class = "grid">
-		<ul>
-			<li>Seif aka "Ceiv", a programmer and a python enthusiast!</li>
-			<li>I enjoy creating automation scripts</li>
-			<li>I'm also a self-taught graphic designer with more than one year as a freelancer I learned a lot</li>
-			<li>You can check my work on either Behance or Fiverr if you want a design</li>
-			<li>You can take a look at my github I post some stuff there as well</li>
-			<li>I'm also active on facebook you can check my profile and my page</li>
-			<li>Ah .. I post some tutos on my youtube channel</li>
-		</ul>
-		<p><br/><p>
-	</div>
-
-	<!--social links-->
-
-	<div class = "social_links">
-				<!--facebook-->
-		<a href="https://www.facebook.com/ce1vv">
-			<img src="./assets/fb.png" alt="Facebook log" id="fb">
-		</a>
-
-		<!--youtube-->
-		<a href="https://www.youtube.com/channel/UCuZ6KfFhDKP4DWDNSHU7a3w">
-			<img src="./assets/yt.png" alt="Youtube logo" id="yt">
-		<!-- Github -->
-		<a href="https://github.com/ceivv">
-			<img src="./assets/gh.png" alt="github logo" id="gh">
-		</a>
-		<!-- Behance-->
-		<a href="https://www.behance.net/ceivadel">
-			<img src="./assets/bh.png" alt="behance logo" id="bh">
-		</a>
-		<!-- facebook page -->
-		<a href="https://www.facebook.com/tech0mag/">
-			<img src="./assets/fb_page.png" alt="facebook pages logo" id="fb_page">
-		</a>
-		<!-- instagram -->
-		<a href="https://www.instagram.com/Ceiv_XIX/">
-			<img src="./assets/insta.png" alt="instagram logo" id="insta">
-		</a>
-		<!-- fiverr -->
-		<a href="https://www.fiverr.com/ceiv_a/">
-			<img src="./assets/fiverr.png" alt="fiverr logo" id="fiverr">
-		</a>
-		<!-- solo learn -->
-		<a href="https://www.sololearn.com/Profile/4137423/">
-			<img src="./assets/sl.png" alt="sololearn logo" id="sl">
-		</a>
-	</div>
-</fieldset>
-	
-
-	</body>
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>
